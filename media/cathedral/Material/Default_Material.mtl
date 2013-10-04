@@ -1,0 +1,11 @@
+texture0 = default.dds
+texture1 = $shadow_depth
+texture2 = $StainedGlass
+texture4 = $StainedGlassDepth
+VertexShaderFile    = defaultNoTexture.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = defaultNoTexture.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = defaultShader.rs

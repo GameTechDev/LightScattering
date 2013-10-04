@@ -1,0 +1,11 @@
+texture_DM = kleig_DMB.dds
+_Shadow		= $shadow_depth
+cbLightAttribs = $LightAttribsCB
+VertexShaderFile    = cage1.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = cage1.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates
+

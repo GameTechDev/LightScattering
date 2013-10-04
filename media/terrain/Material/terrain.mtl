@@ -1,0 +1,14 @@
+g_tex2DMask              = terrainAll_Mask.dds
+g_tex2DGrass             = grass_DM.dds
+g_tex2DDirt              = Dirt_DM.dds
+g_tex2DStone             = Stone_DM.dds
+g_tex2DShadowMap         = $shadow_depth
+g_tex2DStainedGlassColor = $StainedGlass
+g_tex2DStainedGlassDepth = $StainedGlassDepth
+VertexShaderFile    = Terrain.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = Terrain.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = defaultShader.rs

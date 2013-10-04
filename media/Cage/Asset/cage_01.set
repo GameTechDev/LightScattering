@@ -1,0 +1,82 @@
+// Created with FBXConvert.exe (Oct  5 2012 06:49:44)
+[node 0]
+type = model
+name = cage
+parent = -1
+matrixRow0 = 0.02 0 -0 0
+matrixRow1 = 0 0.02 -0 0
+matrixRow2 = -0 -0 0.02 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = 0 270.646 1.52588e-005 
+BoundingBoxHalf = 454.426 217.646 454.426 
+meshcount = 1
+material0 = cage1
+[node 1]
+type = null
+name = fans
+parent = -1
+matrixRow0 = 0.02 0 -0 0
+matrixRow1 = 0 0.02 -0 0
+matrixRow2 = -0 -0 0.02 0
+matrixRow3 = 0 0 -0 1
+[node 2]
+type = model
+name = fan1
+parent = 1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 1 -0 0
+matrixRow2 = -0 -0 1 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = -492.454 279 -179.448 
+BoundingBoxHalf = 21.3408 48.179 46.765 
+meshcount = 1
+material0 = dome1
+[node 3]
+type = model
+name = fan2
+parent = 1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 1 -0 0
+matrixRow2 = -0 -0 1 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = -179.448 279 492.454 
+BoundingBoxHalf = 46.765 48.179 21.3409 
+meshcount = 1
+material0 = dome1
+[node 4]
+type = model
+name = fan3
+parent = 1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 1 -0 0
+matrixRow2 = -0 -0 1 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = 492.454 279 179.448 
+BoundingBoxHalf = 21.3408 48.179 46.765 
+meshcount = 1
+material0 = dome1
+[node 5]
+type = model
+name = fan4
+parent = 1
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 1 -0 0
+matrixRow2 = -0 -0 1 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = 179.448 279 -492.454 
+BoundingBoxHalf = 46.765 48.179 21.3408 
+meshcount = 1
+material0 = dome1
+[node 6]
+type = model
+name = dome
+parent = -1
+matrixRow0 = 0.02 0 -0 0
+matrixRow1 = 0 0.02 -0 0
+matrixRow2 = -0 -0 0.02 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = 0 240.36 -0 
+BoundingBoxHalf = 616.895 240.359 616.895 
+meshcount = 2
+material0 = dome1
+material1 = doorwayLens

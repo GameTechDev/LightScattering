@@ -1,0 +1,1 @@
+-fbx:cage_01.fbx -outputdir:../CPRT/cage_01 -overwritematerials:- 

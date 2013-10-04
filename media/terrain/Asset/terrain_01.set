@@ -1,0 +1,12 @@
+[node 0]
+type = model
+name = terrain_01
+parent = -1
+matrixColumn0 = 1 0 -0 0
+matrixColumn1 = 0 1 -0 0
+matrixColumn2 = -0 -0 1 -0
+matrixColumn3 = 0 0 0 1
+BoundingBoxCenter = 0 1.41544 -0 
+BoundingBoxHalf = 25 1.47098 25 
+meshcount = 1 
+material0 = terrain

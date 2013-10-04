@@ -1,0 +1,41 @@
+//--------------------------------------------------------------------------------------
+// Copyright 2011 Intel Corporation
+// All Rights Reserved
+//
+// Permission is granted to use, copy, distribute and prepare derivative works of this
+// software for any purpose and without fee, provided, that the above copyright notice
+// and this statement appear in all copies.  Intel makes no representations about the
+// suitability of this software for any purpose.  THIS SOFTWARE IS PROVIDED "AS IS."
+// INTEL SPECIFICALLY DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, AND ALL LIABILITY,
+// INCLUDING CONSEQUENTIAL AND OTHER INDIRECT DAMAGES, FOR THE USE OF THIS SOFTWARE,
+// INCLUDING LIABILITY FOR INFRINGEMENT OF ANY PROPRIETARY RIGHTS, AND INCLUDING THE
+// WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  Intel does not
+// assume any responsibility for any errors which may appear in this software nor any
+// responsibility to update it.
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+// Pixel Shader
+//--------------------------------------------------------------------------------------
+Texture2D g_tex2DDiffuse : register( t0 );
+SamplerState samLinear : register( s0 );
+
+struct PS_INPUT
+{
+    float4 Pos      : SV_POSITION;
+    float3 Norm     : NORMAL;
+    float2 Uv       : TEXCOORD0;
+    float4 LightUv  : TEXCOORD1;
+    float3 Position : TEXCOORD2; // Object space position 
+};
+
+// alpha blended texture modulated by vertex color
+float4 PS( PS_INPUT input) : SV_Target
+{
+    // A very simple diffuse texture shader with phong lighting
+    float4 diffuseTexture =  g_tex2DDiffuse.Sample( samLinear, input.Uv );
+	return float4(diffuseTexture.rgb, input.Pos.z);
+	//return float4(1,0,0, input.Pos.z);
+}
+
+

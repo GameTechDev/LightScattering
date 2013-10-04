@@ -1,0 +1,7 @@
+Intel Corporation - Outdoor Light Scattering Sample
+
+The technique demonstrated in the original sample (http://software.intel.com/en-us/vcsource/samples/light-scattering) was capable of rendering directional light source only. This sample shows how the base approach can be extended to support spot and point light sources. Similar to the base approach, the algorithm exploits epipolar sampling and 1D min/max binary trees to accelerate ray marching. The main difference to the base algorithm is that there is no closed form solution to the in-scattering integral due to a spot/point light source. To alleviate computations, the technique exploits simple and efficient pre-computed look-up table.
+
+Note: “Media Elements” are the images, clip art, animations, sounds, music, shapes, video clips, 2D Images, 2D and 3D Mesh’s and mesh data, animation and animation data, and Textures included in the software. This license does not grant you any rights in the Media Elements and you may not reproduce, prepare derivative works, distribute, publicly display, or publicly perform the Media Elements.
+
+Note: The source code sample is provided under the BSD license.  See the license folder within the sample source directory for additional details.

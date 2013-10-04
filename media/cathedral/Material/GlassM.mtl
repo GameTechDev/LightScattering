@@ -1,0 +1,12 @@
+
+g_tex2DDiffuse = stained glass_diff.dds
+
+VertexShaderFile    = vertexShaderDX11.vs
+VertexShaderMain    = VS
+VertexShaderProfile = vs_4_0
+
+PixelShaderFile     = pixelShaderStainedGlassDX11.ps
+PixelShaderMain     = PS
+PixelShaderProfile  = ps_4_0
+
+RenderStateFile     = stainedGlass.rs

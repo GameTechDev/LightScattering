@@ -1,0 +1,14 @@
+g_tex2DDiffuse           = BLD_Bricks_B_DM.dds
+g_tex2DNormalMap         = BLD_Bricks_B_NM.dds
+g_tex2DNormalMapsRGB     = false
+g_tex2DAO                = part1_ILM.dds
+g_tex2DShadowMap         = $shadow_depth
+g_tex2DStainedGlassColor = $StainedGlass
+g_tex2DStainedGlassDepth = $StainedGlassDepth
+VertexShaderFile    = CathedralNM.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = CathedralNM.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = defaultShader.rs

@@ -1,0 +1,6 @@
+[RasterizerStateDX11]
+CullMode = D3D11_CULL_NONE
+
+[SamplerDX11_1]
+AddressU = D3D11_TEXTURE_ADDRESS_CLAMP
+AddressV = D3D11_TEXTURE_ADDRESS_CLAMP

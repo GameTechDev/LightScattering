@@ -1,0 +1,4 @@
+diffuseTmp =  texture( name="texture_DM", uv=uv0 * 1 )
+specular = 0
+diffuse = (diffuseTMP) * 1
+ambient = diffuse

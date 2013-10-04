@@ -1,0 +1,14 @@
+texture_DM = dome_DMB.dds
+texture_SM = dome_SM.dds
+texture_EM = dome_DMB.dds
+texture_NM = dome_NM.dds
+_Shadow		= $shadow_depth
+cbLightAttribs = $LightAttribsCB
+texture_NMsRGB = FALSE
+VertexShaderFile    = dome1.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = dome1.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

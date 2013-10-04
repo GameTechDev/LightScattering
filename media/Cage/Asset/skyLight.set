@@ -1,0 +1,13 @@
+// Created with FBXConvert.exe (Oct  5 2012 06:49:44)
+[node 0]
+type = model
+name = skyLight1
+parent = -1
+matrixRow0 = 0.02 0 -0 0
+matrixRow1 = 0 0.02 -0 0
+matrixRow2 = -0 -0 0.02 0
+matrixRow3 = 0 9.9872 -0 1
+BoundingBoxCenter = -2.28882e-005 0 3.05176e-005 
+BoundingBoxHalf = 200 25 200 
+meshcount = 1
+material0 = skyLight

@@ -1,0 +1,33 @@
+// Created with FBXConvert.exe (Oct  5 2012 06:49:44)
+[node 0]
+type = null
+name = klieg
+parent = -1
+matrixRow0 = 0.02 0 -0 0
+matrixRow1 = 0 0 0.02 0
+matrixRow2 = -0 -0.02 0 0
+matrixRow3 = 0 0 -0.3 1
+[node 1]
+type = model
+name = kleigCase
+parent = 0
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 1 -0 0
+matrixRow2 = -0 -0 1 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = 0.00070858 17.153 0.00419235 
+BoundingBoxHalf = 23.7911 17.153 22.0577 
+meshcount = 1
+material0 = klieg1
+[node 2]
+type = model
+name = kleigLens1
+parent = 0
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 1 -0 0
+matrixRow2 = -0 -0 1 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = 0.00330925 32.527 0.0114784 
+BoundingBoxHalf = 15.7461 1.61253 15.6598 
+meshcount = 1
+material0 = kleigLens

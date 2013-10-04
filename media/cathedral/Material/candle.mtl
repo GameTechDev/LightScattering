@@ -1,0 +1,12 @@
+g_tex2DDiffuse           = cream_4x4.dds
+g_tex2DAO                = part2_ILM.dds
+g_tex2DShadowMap         = $shadow_depth
+g_tex2DStainedGlassColor = $StainedGlass
+g_tex2DStainedGlassDepth = $StainedGlassDepth
+VertexShaderFile    = defaultShader.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = defaultShader.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = defaultShader.rs
