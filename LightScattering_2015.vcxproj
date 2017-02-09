@@ -84,7 +84,7 @@
     <ResourceCompile Include="LightScattering_2015.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="CPUT\CPUT-DX11.vcxproj">
+    <ProjectReference Include="CPUT\CPUT-DX11_2015.vcxproj">
       <Project>{8b2ddedc-a574-4b24-aec5-03949b5f57bd}</Project>
     </ProjectReference>
   </ItemGroup>
